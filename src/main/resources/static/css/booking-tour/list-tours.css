@@ -1,0 +1,44 @@
+.table__wrapper{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.table{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+    border: 1px solid #fff;
+    min-width: 1000px;
+}
+.table .table__header{
+    background: #ccc;
+    text-align: center;
+}
+.row .col{
+    border-right: 1px solid #fff;
+    padding: 5px 10px
+}
+.row .col:last-child{
+    border-right: unset;
+}
+.table .table__body .row:nth-child(even){
+    background: #99fecb;
+}
+.table .table__body .row:nth-child(odd){
+    background: #cefeff;
+}
+.table .table__body .row .name{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-width: 500;
+    color: var(--primary-color);
+}
+.table .table__body .row .schedule{
+    margin: 5px 0 0
+}
+.table .table__body .row .price{
+    font-width: 500;
+    text-align: end;
+}
+a.primary-btn{
+    padding: 10px
+}

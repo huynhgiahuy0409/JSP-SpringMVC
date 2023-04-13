@@ -1,0 +1,28 @@
+.employee-detail_wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.employee-detail{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+    border: 1px solid #fff;
+    min-width: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px
+}.employee-detail h1{
+    color:  var(--primary-color)
+}
+.employee-detail .label{
+    font-weight: 500;
+}
+.row{
+    margin-bottom: 15px;
+}
+.line-group{
+    margin: 0
+}
+.line-group .line-form{
+    height: 30px
+}

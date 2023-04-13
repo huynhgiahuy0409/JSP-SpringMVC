@@ -1,0 +1,41 @@
+.tour-detail__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+}
+.tour-detail{
+    min-width: 800px;
+    display: inline-block;
+}
+.tour-detail__header {
+    padding: 20px
+}
+
+.tour-detail__header .name {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0
+}
+.tour-detail__header .name span{
+   text-transform: uppercase;
+    color: var(--primary-color);
+}
+.tour-detail__header .schedule-overview {
+}
+.tour-detail__header .schedule-overview span{
+    font-weight: 500;
+}
+
+.tour-detail__body{
+    background: rgb(83, 146, 249, .2);
+    padding: 10px 20px
+}
+
+.tour-detail__footer {
+    border-top: 1px solid #ccc;
+    padding: 10px 20px
+}

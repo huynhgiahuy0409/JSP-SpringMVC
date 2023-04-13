@@ -1,0 +1,10 @@
+<web-app>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+            <default-content-type>text/html</default-content-type>
+            <default-buffer-size>1024</default-buffer-size>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>

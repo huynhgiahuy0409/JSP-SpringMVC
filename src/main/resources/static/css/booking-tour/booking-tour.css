@@ -1,0 +1,17 @@
+.booking-form__wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+    border: 1px solid #fff;
+    min-width: 1000px;
+    border-radius: 3px;
+    padding: 20px;
+    min-width: 600px;
+}
+.line-group .line-form{
+    height: 30px;
+}

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px
+}
+
+form#reply-form {
+    display: inline-block;
+    background: #fff;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(0, 0, 0, 0.075) 0px 0px 6px;
+    border: 1px solid #ccc;
+    min-width: 800px;
+}

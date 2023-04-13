@@ -1,0 +1,37 @@
+.row .col{
+    border-right: 1px solid #fff;
+    padding: 10px
+}
+.row .col:last-child{
+    border-right: unset;
+}
+.employee-table__wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.employee-table{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+    border: 1px solid #fff;
+    min-width: 1000px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.employee-table__header{
+    background: #00cc98;
+    padding: 10px;
+    font-weight: 500;
+}
+.employee-table__action{
+    padding: 20px 10px
+}
+.employee-table__body{
+
+}
+
+.employee-table__body .label{
+    text-align: center;
+    font-weight: 500;
+    background: #99fecb;
+}

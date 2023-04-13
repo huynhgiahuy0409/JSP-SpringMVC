@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px
+}
+
+form#reply-form {
+    display: inline-block;
+    background: #fff;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(0, 0, 0, 0.075) 0px 0px 6px;
+    border: 1px solid #ccc;
+    min-width: 800px;
+}
+
+.line-group {
+    margin-bottom: 20px
+}
+
+.line-group .label {
+    margin-bottom: 5px;
+}
+
+.line-group .line-form {
+    width: 100%;
+    height: 55px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.line-form input {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    marin: 0;
+    background: transparent;
+    border: unset;
+    margin-bottom: 5px
+}
+
+.line-form input:focus, .line-form textarea:focus {
+    border-color: var(--primary-color);
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, var(--primary-color) 0px 0px 6px;
+    border-radius: 5px;
+}
+.line-form.textarea {
+    height: auto;
+    overflow: hidden;
+}
+.line-form textarea {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: unset;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px
+}
+
