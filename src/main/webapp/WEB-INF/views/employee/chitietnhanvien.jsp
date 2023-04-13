@@ -1,4 +1,5 @@
-<%@ include file="/src/main/webapp/WEB-INF/views/common.jsp" %>
+<%@ include file="/WEB-INF/views/common.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
 <html lang="en">
 <head>

@@ -1,8 +1,5 @@
+<%@ include file="/WEB-INF/views/common.jsp" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -111,7 +108,7 @@
             <div class="col l-6">
                 <div class="line-group">
                     <div class="line-form">
-                        <input type="text" name="phone" placeholder="Ex: 0776425942" pattern="^[0-9]+$" required>
+                        <input type="number" name="phone" placeholder="Ex: 0776425942" pattern="^[0-9]+$" required>
                     </div>
                 </div>
             </div>
@@ -161,7 +158,7 @@
             <div class="col l-6">
                 <div class="line-group">
                     <div class="line-form">
-                        <input id="wageRateInput" type="text" name="wageRate" required>
+                        <input id="wageRateInput" type="number" name="wageRate" required min="0">
                     </div>
                 </div>
             </div>

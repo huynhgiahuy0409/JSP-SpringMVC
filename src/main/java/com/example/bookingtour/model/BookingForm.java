@@ -11,23 +11,15 @@ public class BookingForm {
     private String address;
     private String email;
     private String phone;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date departureDate;
+    private String departureDate;
     private int noAdults;
     private int noChildren;
 
-    public String getDepartureDateString() {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        String stringDate = simpleDateFormat.format(this.departureDate);
-        return stringDate;
+    public String getDepartureDate() {
+        return departureDate;
     }
 
-    public Date getDepartureDate() {
-        return this.departureDate;
-    }
-
-
-    public void setDepartureDate(Date departureDate) {
+    public void setDepartureDate(String departureDate) {
         this.departureDate = departureDate;
     }
 

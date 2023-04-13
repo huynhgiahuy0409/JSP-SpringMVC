@@ -53,7 +53,7 @@ public class EmployeeController {
     private String goToListEmployee(@PathVariable String employeeId, Model model){
         Employee foundEmployee = this.employeeService.findEmployee(employeeId);
         model.addAttribute("employee", foundEmployee);
-        return "/employee/chitietnhanvien";
+        return "employee/chitietnhanvien";
     }
     @GetMapping("/check-id/{employeeId}")
     @ResponseBody

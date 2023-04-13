@@ -111,7 +111,7 @@ button:hover {
     display: none;
     height: 30px;
     padding: 12px 20px;
-    margin-bottom: 10px;
+    margin: 10px 0 0
 }
 @keyframes fadeIn {
     from{
@@ -190,6 +190,9 @@ button:hover {
 }
 .justify-content-between{
     justify-content: space-between;
+}
+.justify-content-start{
+    justify-content: flex-start;
 }
 .justify-content-end{
     justify-content: end;
